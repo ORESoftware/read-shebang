@@ -1,0 +1,33 @@
+{
+  "name": "read-shebang",
+  "version": "0.0.1001",
+  "description": "Read the shebang/hashbang from a file asynchronously.",
+  "main": "index.js",
+  "scripts": {
+    "test": "suman"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ORESoftware/read-shebang.git"
+  },
+  "keywords": [
+    "file",
+    "shebang",
+    "hashbang",
+    "fs",
+    "bash",
+    "shell",
+    "scripting",
+    "tty"
+  ],
+  "author": "Olegzandr VD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ORESoftware/read-shebang/issues"
+  },
+  "homepage": "https://github.com/ORESoftware/read-shebang#readme",
+  "devDependencies": {
+    "@types/core-js": "^0.9.43",
+    "@types/node": "^8.0.53"
+  }
+}
