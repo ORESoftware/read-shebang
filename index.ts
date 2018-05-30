@@ -22,8 +22,6 @@ export type RSCallback = (err: Error | null, d?: RSData) => void;
 
 export const readShebang = function (filename: string, encoding: string, bytes: number, cb: RSCallback) {
   
-  
-  
   if (typeof cb !== 'function') {
     throw new Error(`callback passed to '${readShebang.name}' must be a function.`);
   }
@@ -50,7 +48,7 @@ export const readShebang = function (filename: string, encoding: string, bytes: 
         buffer: buf,
         executable: 'node',
         hasShebang,
-        shebangStr: firstLine? firstLine : '',
+        shebangStr: firstLine || '',
         firstLine: firstLine
       });
       
