@@ -21,7 +21,7 @@ exports.readShebang = function (filename, encoding, bytes, cb) {
                 buffer: buf,
                 executable: 'node',
                 hasShebang: hasShebang,
-                shebangStr: firstLine ? firstLine : '',
+                shebangStr: firstLine || '',
                 firstLine: firstLine
             });
         });
