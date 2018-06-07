@@ -1,8 +1,10 @@
 {
   "name": "read-shebang",
-  "version": "0.0.1001",
+  "version": "0.0.1002",
   "description": "Read the shebang/hashbang from a file asynchronously.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "suman"
   },
