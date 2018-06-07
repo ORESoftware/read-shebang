@@ -20,6 +20,8 @@ export interface RSData {
 
 export type RSCallback = (err: Error | null, d?: RSData) => void;
 
+//////////////////////////////////////////////////////////////////////////////////
+
 export const readShebang = function (filename: string, encoding: string, bytes: number, cb: RSCallback) {
   
   if (typeof cb !== 'function') {
@@ -58,5 +60,11 @@ export const readShebang = function (filename: string, encoding: string, bytes: 
 };
 
 
+export default readShebang;
+
+
+export const r2gSmokeTest = function () {
+  return true;
+};
 
 

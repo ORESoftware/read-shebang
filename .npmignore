@@ -1,0 +1,10 @@
+src
+scripts
+test
+.gitignore
+.gitattributes
+.npmignore
+.npmrc
+*.md
+*.log
+tsconfig*.json
